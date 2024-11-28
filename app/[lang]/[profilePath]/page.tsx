@@ -12,6 +12,15 @@ import {
   MusicalNoteIcon,
   MapPinIcon,
 } from "@heroicons/react/24/outline";
+import User from "@/src/data/models/user";
+import City from "@/src/data/models/city";
+import connectDB from "@/lib/mongodb";
+import { calculateAge } from "@/src/helpers/calculate-age";
+import { getZodiacSign } from "@/src/helpers/get-zodiac-sign";
+import "@/src/data/models/dance-style";
+import React from "react";
+import { DanceStyleType } from "@/src/types";
+
 export async function generateMetadata({
   params,
 }: {
@@ -26,12 +35,27 @@ export async function generateMetadata({
 }
 
 export type AboutUsPageProps = {
-  params: { lang: AvailableLanguages };
+  params: { lang: AvailableLanguages; profilePath: string };
 };
 export default async function AboutUsPage({
-  params: { lang },
+  params: { lang, profilePath },
 }: AboutUsPageProps) {
   const dict = await getDictionary(lang);
+
+  await connectDB();
+
+  const userFound = await User.findOne({ profileUrl: "ottobonilla" })
+    .populate("cityId", "name")
+    .populate("styles.styleId", "name");
+
+  if (!userFound) {
+    return <div className="h-screen bg-black text-white">User not found</div>;
+  }
+
+  const city = await City.findById(userFound.cityId);
+  const age = calculateAge(userFound?.dateOfBirth as Date);
+
+  const zodiacSign = getZodiacSign(userFound?.dateOfBirth as Date);
 
   return (
     <div className="bg-black text-white">
@@ -45,16 +69,18 @@ export default async function AboutUsPage({
         <div className="flex gap-4">
           <Image
             className="rounded-full w-[110px] h-[110px] object-cover"
-            src="https://womenlovetech.com/wp-content/uploads/2021/05/michael-dam-female-smiling-unsplash.jpg"
+            src={userFound?.profilePicture}
           />
           <div>
-            <div className="font-bold flex text-xl">Valentina, 28</div>
+            <div className="font-bold flex text-xl">
+              {userFound?.name}, {age}
+            </div>
             <div className="flex gap-1">
-              <MapPinIcon className="w-5" /> Dublin
+              <MapPinIcon className="w-5" /> {city?.name}
             </div>
             <div className="flex gap-1">
               <AriesIcon className="w-5" />
-              <div className="text-lg">Aries</div>
+              <div className="text-lg">{zodiacSign}</div>
             </div>
           </div>
         </div>
@@ -67,17 +93,14 @@ export default async function AboutUsPage({
             <MapPinIcon className="w-5" /> Dublin
           </div> */}
         <div className="h-4" />
-        <div className="italic">
-          Bachatera soul, dancing is my passion, love festivals, socials, down
-          to anything..
-        </div>
+        <div className="italic">{userFound?.bioDescription}</div>
         <div className="h-5" />
         <div className="">
           <div className="uppercase font-bold mb-2">My anthem</div>
 
           <iframe
             style={{ borderRadius: "12px" }}
-            src="https://open.spotify.com/embed/track/5zbqYUQ6iXb9NHSbnhxffs?utm_source=generator&theme=0"
+            src={`https://open.spotify.com/embed/track/${userFound?.spotifySongId}?utm_source=generator&theme=0`}
             width="100%"
             height="152"
             frameBorder="0"
@@ -90,25 +113,22 @@ export default async function AboutUsPage({
         <div>
           <div className="uppercase font-bold mb-2">My styles</div>
 
-          <div className="grid grid-cols-12 gap-y-1">
-            <div className="text-lg font-medium col-span-4">Bachata</div>
-            <div className="flex gap-1 items-center col-span-8">
-              <div className="h-6 w-3 bg-white" />
-              <div className="h-6 w-3 bg-white" />
-              <div className="h-6 w-3 bg-white" />
-              <div className="h-6 w-3 bg-white" />
-              <div className="h-6 w-3 bg-white" />
-              <div className="h-6 w-3 bg-white" />
-              <div className="h-6 w-3 bg-white" />
-              <div className="h-6 w-3 bg-white" />
-            </div>
-            <div className="text-lg font-medium col-span-4">Salsa</div>
-            <div className="flex gap-1 items-center col-span-8">
-              <div className="h-6 w-3 bg-white" />
-              <div className="h-6 w-3 bg-white" />
-              <div className="h-6 w-3 bg-white" />
-              <div className="h-6 w-3 bg-white" />
-            </div>
+          <div className="">
+            {userFound.styles.map(({ styleId, level }) => (
+              <div
+                key={(styleId as DanceStyleType).name}
+                className="grid grid-cols-12 gap-y-1"
+              >
+                <div className="text-lg font-medium col-span-6 overflow-hidden">
+                  {(styleId as DanceStyleType).name}
+                </div>
+                <div className="flex gap-1 items-center col-span-6">
+                  {Array.from({ length: level }).map((_, index) => (
+                    <div className="h-6 w-3 bg-white" />
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
         <div className="h-5" />

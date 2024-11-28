@@ -11,3 +11,4 @@ export * from "./pricing";
 export * from "./subscription-details";
 export * from "./country";
 export * from "./city";
+export * from "./dance-style";

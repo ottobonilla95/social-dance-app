@@ -124,9 +124,6 @@ export default async function RootLayout({
       <body className={`${bricolageGrotesque.className} antialiased`}>
         {children}
         <ToastContainer />
-        <div className="fixed bottom-2 right-2 text-sm text-gray-400">
-          &copy; {new Date().getFullYear()} TrackMySpend
-        </div>
         <Analytics />
         {/*  <FacebookPixel /> */}
       </body>

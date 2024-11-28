@@ -11,6 +11,20 @@ const UserSchema: Schema<UserType> = new Schema({
   instagramUrl: { type: String, required: false },
   linkedinUrl: { type: String, required: false },
   cityId: { type: Schema.Types.ObjectId, ref: "City", required: true },
+  profileUrl: { type: String, required: true },
+  dateOfBirth: { type: Date, required: true },
+  profilePicture: { type: String, required: true },
+  spotifySongId: { type: String, required: true },
+  styles: [
+    {
+      styleId: {
+        type: Schema.Types.ObjectId,
+        ref: "DanceStyle",
+        required: true,
+      },
+      level: { type: Number, min: 0, max: 10, required: true },
+    },
+  ],
 });
 
 const User: Model<UserType> =

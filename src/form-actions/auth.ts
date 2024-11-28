@@ -159,11 +159,6 @@ export async function createUser(
   try {
     await connectDB();
 
-    const city = await CIty.findOne({
-      name: "Madrid",
-    });
-
-
     const user = await User.findOne({
       email,
     });
@@ -179,22 +174,11 @@ export async function createUser(
 
     const hashedPassword = await bcrypt.hash(password, 10);
 
-    // const city = await CIty.findOne({
-    //   name: "Madrid",
-    // });
-
-    console.log(city)
-    console.log(city)
-    console.log(city)
-    console.log(city)
-    console.log(city)
-
     const userCreted = await User.create({
       email,
       name,
       password: hashedPassword,
       lang,
-      cityId: city?._id,
       lastUpdated: new Date(),
       bioDescription: "",
     });
