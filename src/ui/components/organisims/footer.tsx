@@ -17,7 +17,9 @@ export const Footer = ({ dict }: FooterProps) => {
             <h3 className="text-xl font-semibold mb-4">
               {dict.footer.aboutUsTitle}
             </h3>
-            <p className="text-lg opacity-80">{dict.footer.aboutUsDescription}</p>
+            <p className="text-lg opacity-80">
+              {dict.footer.aboutUsDescription}
+            </p>
           </div>
 
           {/* Enlaces Rápidos */}
@@ -32,26 +34,17 @@ export const Footer = ({ dict }: FooterProps) => {
                 </Link>
               </li>
               <li className="mb-2">
-                <Link
-                  href="/about-us"
-                  className="hover:text-white"
-                >
+                <Link href="/about-us" className="hover:text-white">
                   {dict.footer.aboutUs}
                 </Link>
               </li>
               <li className="mb-2">
-                <Link
-                  href="/contact-us"
-                  className="hover:text-white"
-                >
+                <Link href="/contact-us" className="hover:text-white">
                   {dict.footer.contactUs}
                 </Link>
               </li>
               <li className="mb-2">
-                <Link
-                  href="/privacy-policy"
-                  className="hover:text-white"
-                >
+                <Link href="/privacy-policy" className="hover:text-white">
                   {dict.footer.privacyPolicy}
                 </Link>
               </li>
@@ -61,14 +54,6 @@ export const Footer = ({ dict }: FooterProps) => {
 
         {/* Divider */}
         <div className="border-t border-neutral-700 my-8"></div>
-
-        {/* Copyright Section */}
-        <div className="text-center">
-          <p className="">
-            &copy; {new Date().getFullYear()}
-            {`TrackMySpend. ${dict.footer.allRightsReserved}`}
-          </p>
-        </div>
       </Container>
     </footer>
   );

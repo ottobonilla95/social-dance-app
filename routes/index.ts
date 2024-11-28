@@ -5,4 +5,5 @@ export const publicRoutes = [
   "/about-us",
   "/pricing",
 ];
+export const privateRoutes = ["/dashboard"];
 export const DEFAULT_LOGIN_REDIRECT = "/dashboard";

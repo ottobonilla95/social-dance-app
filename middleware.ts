@@ -1,7 +1,12 @@
 import NextAuth from "next-auth";
 import { authConfig } from "./auth.config";
 import { NextRequest, NextResponse } from "next/server";
-import { authRoutes, DEFAULT_LOGIN_REDIRECT, publicRoutes } from "./routes";
+import {
+  authRoutes,
+  DEFAULT_LOGIN_REDIRECT,
+  privateRoutes,
+  // publicRoutes,
+} from "./routes";
 
 let locales = ["en", "es"];
 
@@ -77,11 +82,14 @@ export default auth(async function middleware(request: NextRequest) {
 
   //@ts-ignore
   const isLoggedIn = !!request.auth;
-  const isPublicRoute = publicRoutes.includes(
-    removeFirstPartOfUrl(nextUrl.pathname)
-  );
+  // const isPublicRoute = publicRoutes.includes(
+  //   removeFirstPartOfUrl(nextUrl.pathname)
+  // );
 
   const isAuthRoute = authRoutes.includes(
+    removeFirstPartOfUrl(nextUrl.pathname)
+  );
+  const isPrivateRoute = privateRoutes.includes(
     removeFirstPartOfUrl(nextUrl.pathname)
   );
 
@@ -96,7 +104,7 @@ export default auth(async function middleware(request: NextRequest) {
     return;
   }
 
-  if (!isLoggedIn && !isPublicRoute) {
+  if (!isLoggedIn && isPrivateRoute) {
     return NextResponse.redirect(
       new URL(generateLocaleUrl("/login", locale), nextUrl)
     );
