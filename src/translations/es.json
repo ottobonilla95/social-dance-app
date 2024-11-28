@@ -1,0 +1,517 @@
+{
+  "dashboard": {
+    "lastUpdated": "Última vez actualizado",
+    "addSaving": "Añadir ahorro",
+    "saving": "Ahorro",
+    "addIncome": "Añadir ingreso",
+    "addExpense": "Añadir gasto",
+    "expense": "Gasto",
+    "totalIncome": "Ingresos totales",
+    "totalExpenses": "Gastos totales",
+    "balance": "Balance",
+    "byEmotion": "Por Emoción",
+    "bySatisfaction": "Por Satisfacción",
+    "totalExpensesPerDayByCategory": "Gastos totales por día por categoría",
+    "totalExpensesPerCategory": "Gastos totales por categoría",
+    "samePeriodLastMonth": "Mismo período del mes pasado"
+  },
+  "forms": {
+    "expense": {
+      "create": {
+        "levelOfSatisfaction": "Nivel de Satisfacción",
+        "whatEmotionDidIFeel": "¿Qué emoción sentí al hacer este gasto?",
+        "neutral": "Neutral",
+        "sadness": "Tristeza",
+        "happiness": "Felicidad",
+        "stress": "Estrés",
+        "boredom": "Aburrimiento",
+        "excitement": "Entusiasmo",
+        "guilt": "Culpa",
+        "anxiety": "Ansiedad"
+      },
+      "delete": {
+        "title": "Eliminar Gasto",
+        "message": "¿Estás seguro de que deseas eliminar este gasto? Esta acción no se puede deshacer."
+      }
+    },
+    "saving": {
+      "delete": {
+        "title": "Eliminar Ahorro",
+        "message": "¿Estás seguro de que deseas eliminar este ahorro? Esta acción no se puede deshacer."
+      }
+    },
+    "income": {
+      "delete": {
+        "title": "Eliminar Ingreso",
+        "message": "¿Estás seguro de que deseas eliminar este ingreso? Esta acción no se puede deshacer."
+      }
+    },
+
+    "category": {
+      "create": {
+        "title": "Crear Categoría"
+      },
+      "update": {
+        "title": "Actualizar Categoría"
+      }
+    },
+    "subCategory": {
+      "create": {
+        "title": "Crear Sub Categoría"
+      },
+      "update": {
+        "title": "Actualizar Sub Categoría"
+      }
+    },
+    "shared": {
+      "category": "Categoría",
+      "subcategory": "Subcategoría",
+      "description": "Descripción",
+      "amount": "Monto",
+      "date": "Fecha",
+      "save": "Guardar",
+      "cancel": "Cancelar",
+      "name": "Nombre",
+      "color": "Color",
+      "enterAmount": "Ingresa Cantidad",
+      "enterDescription": "Ingresa Descripción",
+      "delete": "Eliminar",
+      "enterName": "Ingresa Nombre",
+      "add": "Añadir"
+    }
+  },
+  "psychologyPage": {
+    "emotionalSpendingPatterns": "Patrones de gasto emocional",
+    "satisfactionSpendingPatterns": "Patrones de gasto de satisfacción",
+    "premiumNavLinkMessage": "Actualiza a Premium para ver análisis más detallados de tus gastos basados en emociones y nivel de satisfacción.",
+    "whereYouSpendTheMostByEmotion": "Dónde Gastas Más Según tus Emociones"
+  },
+  "shared": {
+    "total": "Total",
+    "name": "Nombre",
+    "date": "Fecha",
+    "price": "Precio",
+    "satisfaction": "Satisfacción",
+    "emotion": "Emoción",
+    "noExpensesAdded": "No has añadido ningún gasto este mes.",
+    "expenses": "Gastos",
+    "savings": "Ahorros",
+    "income": "Ingreso",
+    "contactUs": "Contáctanos",
+    "password": "Contraseña",
+    "email": "Correo electrónico",
+    "confirmPassword": "Confirmar contraseña",
+    "currency": "Moneda",
+    "close": "Cerrar",
+    "pricing": "Precios",
+    "goPremium": "Ir a Premium",
+    "manageSubscription": "Administrar suscripción",
+    "changeSubsCription": "Cambiar suscripción",
+    "subscriptionMessages": {
+      "youHaveReaachedYourCategoryLimitTitle": "¡Has alcanzado el límite de categorías!",
+      "youHaveReaachedYourCategoryLimit": "Has utilizado todas las categorías disponibles en el plan gratuito. Actualiza a Premium para desbloquear categorías ilimitadas y obtener informes más detallados sobre tus gastos.",
+      "addEmotionsAndLevelOfSatisfactionTitle": "¡Agrega emociones y nivel de satisfacción a tus gastos!",
+      "addEmotionsAndLevelOfSatisfactionMessage": "Actualiza a Premium para registrar cómo te sientes con cada gasto y tu nivel de satisfacción, y así obtener análisis más detallados de tus finanzas.",
+      "seeExpensesPerMonthByCategoryTitle": "¡Ver gastos por mes y por categoría!",
+      "seeExpensesPerMonthByCategoryMessage": "Actualiza a Premium para ver informes detallados de tus gastos desglosados por categoría para cada mes.",
+      "seeTotalExpensesPerDayTitle": "¡Ver gastos totales por día!",
+      "seeTotalExpensesPerDayMessage": "Actualiza a Premium para ver informes detallados de tus gastos totales por día.",
+      "psychologyPagePremiumTitle": "Desbloquea un Análisis Profundo de tu Psicología de Gastos",
+      "psychologyPagePremiumMessage": "Actualízate a Premium para obtener una visión completa de las emociones, desencadenantes y patrones que influyen en tus hábitos financieros."
+    },
+    "satisfactionLevels": {
+      "veryUnsatisfied": "Muy insatisfecho",
+      "unsatisfied": "Insatisfecho",
+      "neutral": "Neutral",
+      "satisfied": "Satisfecho",
+      "verySatisfied": "Muy satisfecho"
+    },
+    "currencies": {
+      "COP": "Peso Colombiano",
+      "MXN": "Peso Mexicano",
+      "ARS": "Peso Argentino",
+      "CLP": "Peso Chileno",
+      "UYU": "Peso Uruguayo",
+      "DOP": "Peso Dominicano",
+      "VES": "Bolívar Soberano",
+      "PYG": "Guaraní",
+      "PEN": "Sol Peruano",
+      "GTQ": "Quetzal Guatemalteco",
+      "PAB": "Balboa Panameño",
+      "NIO": "Córdoba Nicaragüense",
+      "HNL": "Lempira Hondureño",
+      "USD": "Dólar Estadounidense",
+      "EUR": "Euro",
+      "GBP": "Libra Esterlina",
+      "CHF": "Franco Suizo",
+      "CAD": "Dólar Canadiense",
+      "JPY": "Yen Japonés",
+      "BRL": "Real Brasileño",
+      "AUD": "Dólar Australiano",
+      "CNY": "Yuan Chino",
+      "NZD": "Dólar Neozelandés",
+      "RUB": "Rublo Ruso",
+      "INR": "Rupia India",
+      "SEK": "Corona Sueca"
+    }
+  },
+  "insights": {
+    "totalIncomeExpensesSavings": "Ingresos, gastos y ahorros totales",
+    "expensesByCategory": "Gastos por categoría"
+  },
+  "contactPage": {
+    "weWouldLoveToHearFromYou": "¡Nos encantaría saber de ti! Ya sea que tengas una pregunta, comentario o necesites ayuda, no dudes en contactarnos.",
+    "youCanSendUsAnEmailTo": "Puedes enviarnos un correo electrónico a:",
+    "weStriveToRespondWithin": "Nos esforzamos por responder en 24-48 horas.",
+    "meta": {
+      "title": "Contáctanos | TrackMySpend - Estamos Aquí para Ayudarte",
+      "description": "¿Tienes preguntas o necesitas asistencia? Contacta a TrackMySpend para soporte e inquietudes. Nuestro equipo está aquí para ayudarte a gestionar tus finanzas de manera más efectiva y aprovechar al máximo nuestra herramienta."
+    }
+  },
+  "aboutUsPage": {
+    "aboutUs": "Acerca de Track My Expense",
+    "aboutUsDescription": "Nuestro sitio web fue creado para permitir a los usuarios llevar un registro de sus gastos de manera sencilla y obtener una mejor comprensión de cómo se están gestionando sus finanzas personales. Esto les ayuda a tomar el control de su salud financiera y a tomar decisiones informadas.",
+    "aboutUsDescription2": "Creemos que la gestión de las finanzas personales debe ser simple, accesible y eficiente. Ya sea que estés intentando ahorrar más, entender tus hábitos de gasto o simplemente llevar un mejor control, Track My Expense está diseñado para personas que desean mejorar su bienestar financiero.",
+    "meta": {
+      "title": "Sobre Nosotros | TrackMySpend - Empoderándote para Controlar tus Finanzas",
+      "description": "Descubre más sobre TrackMySpend, el equipo detrás de la herramienta y nuestra misión de ayudarte a controlar tus gastos, optimizar tu presupuesto y alcanzar la estabilidad financiera. Estamos comprometidos a empoderar a las personas para que gestionen su dinero con confianza."
+    }
+  },
+  "authPages": {
+    "login": "Iniciar sesión",
+    "pleaseLogIn": "Por favor, inicie sesión para continuar.",
+    "createAccount": "Crear cuenta",
+    "enterYourEmail": "Ingresa tu correo electrónico",
+    "enterYourPassword": "Ingresa tu contraseña",
+    "enterYourPasswordConfirmation": "Ingresa tu confirmación de contraseña",
+    "enterYourName": "Ingresa tu nombre",
+    "acceptPrivacyPolicy": "Acepto la política de privacidad",
+    "privacyPolicy": "Política de privacidad"
+  },
+  "mainPage": {
+    "introMessage1": "Controla tu dinero",
+    "introMessage2": "de forma fácil y",
+    "introMessage3": "rápida",
+    "welcomeDescription": "Controla, gestiona y analiza tus gastos con una herramienta sencilla. Toma decisiones inteligentes sobre tu dinero y gana control en cada paso.",
+    "takeControlToday": "Empieza hoy!",
+    "visualBenefit": {
+      "changeFrom": "Cambia de esto",
+      "changeTo": "A esto"
+    },
+    "keyFeatures": {
+      "title": "Lo Que Ofrece TrackMySpend",
+      "description": "TrackMySpend te proporciona las herramientas para gestionar tu dinero sin esfuerzo y obtener información detallada sobre tus hábitos de gasto.",
+      "feature1": {
+        "title": "Registra Tus Gastos, Ingresos y Ahorros",
+        "description": "Registra y categoriza fácilmente tus gastos, rastrea las fuentes de ingresos y observa cuánto estás ahorrando cada mes."
+      },
+      "feature2": {
+        "title": "Información Financiera Visual",
+        "description": "Entiende tus hábitos de gasto a través de gráficos circulares detallados por mes y gráficos de líneas que rastrean todas tus categorías a lo largo del tiempo."
+      },
+      "feature3": {
+        "title": "Gastos Basados en Emociones",
+        "description": "Asocia emociones a tus gastos y obtén información sobre cómo tus sentimientos influyen en tus decisiones financieras."
+      }
+    },
+    "painPoints": {
+      "title": "Desventajas de no tener una herramienta financiera",
+      "items": [
+        {
+          "before": "Falta de",
+          "highlight": "conciencia",
+          "after": "financiera"
+        },
+        {
+          "before": "Oportunidades de ahorro",
+          "highlight": "perdidas",
+          "after": ""
+        },
+        {
+          "before": "",
+          "highlight": "Dificultad",
+          "after": "para presupuestar"
+        },
+        {
+          "before": "Falta de",
+          "highlight": "visión",
+          "after": "sobre los hábitos de gasto"
+        },
+        {
+          "before": "Aumento del",
+          "highlight": "estrés",
+          "after": "financiero"
+        },
+        {
+          "before": "Progreso",
+          "highlight": "inconsistente",
+          "after": "en tus metas"
+        },
+        {
+          "before": "Mayor riesgo de acumular",
+          "highlight": "deudas",
+          "after": ""
+        },
+        {
+          "before": "",
+          "highlight": "Falta",
+          "after": "de crecimiento financiero"
+        }
+      ],
+      "betterWayText": "Hay una mejor forma"
+    },
+    "benefits": {
+      "title": "¡Beneficios de gestionar tu dinero como un experto!",
+      "items": [
+        {
+          "title": "Visión Financiera Clara",
+          "description": "Comprende en qué se va cada peso y ten una visión completa de tu situación financiera."
+        },
+        {
+          "title": "Aumenta tus Ahorros y Reduce Deudas",
+          "description": "Establece metas de ahorro, evita gastos innecesarios y trabaja para salir de deudas de forma constante."
+        },
+        {
+          "title": "Conciencia sobre el Gasto Emocional",
+          "description": "Descubre patrones de gasto ligados a tus emociones, como las compras impulsivas, y toma decisiones más conscientes."
+        },
+        {
+          "title": "Tranquilidad Financiera",
+          "description": "Reduce el estrés financiero sabiendo que tienes un plan claro y estás en control de tu dinero."
+        },
+        {
+          "title": "Hábitos de Gasto Saludables",
+          "description": "Identifica y mejora tus hábitos de gasto para lograr una vida financiera más equilibrada y satisfactoria."
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "Cómo Funciona",
+      "step1": {
+        "title": "Crea una Cuenta",
+        "description": "Regístrate y crea tu cuenta en segundos. Sin formularios complicados, solo tu información básica."
+      },
+      "step2": {
+        "title": "Agrega Tus Finanzas",
+        "description": "Introduce fácilmente tus ingresos, gastos y ahorros con una interfaz fácil de usar."
+      },
+      "step3": {
+        "title": "Rastrea y Analiza",
+        "description": "Obtén informes detallados sobre a dónde va tu dinero, cuánto estás ahorrando y más."
+      },
+      "step4": {
+        "title": "Alcanza Tus Metas",
+        "description": "Establece metas financieras y rastrea tu progreso. ¡Deja que TrackMySpend te guíe hacia el éxito financiero!"
+      }
+    },
+    "screenShots": {
+      "title": "Explora la Aplicación TrackMySpend",
+      "description": "Echa un vistazo a la interfaz y las características que te ayudan a gestionar tus finanzas sin esfuerzo.",
+
+      "screenshot1": {
+        "description": "Resumen de los gastos del mes actual"
+      },
+      "screenshot2": {
+        "description": "Ver los totales por categoría"
+      },
+      "screenshot3": {
+        "description": "Seguimiento de los gastos totales por día"
+      },
+      "screenshot4": {
+        "description": "Tabla detallada de todos los registros de gastos"
+      },
+      "screenshot5": {
+        "description": "Totales mensuales mostrados en un gráfico"
+      },
+      "screenshot6": {
+        "description": "Totales por mes y por categoría"
+      },
+      "screenshot7": {
+        "description": "Gráficos de gastos totales por emoción y nivel de satisfacción"
+      },
+      "screenshot8": {
+        "description": "Tabla de gastos totales por emoción y categoría (por ejemplo, tristeza: Comida, Ropa)"
+      }
+    },
+    "testimonials": {
+      "title": "Lo Que Dicen Nuestros Usuarios",
+      "testimonial1": {
+        "feedback": "¡TrackMySpend cambió la forma en que manejo mis finanzas! Ahora tengo control total sobre mis gastos y ahorros."
+      },
+      "testimonial2": {
+        "feedback": "¡TrackMySpend ha sido un cambio radical! Es intuitivo, fácil de usar y me da una visión clara de mi salud financiera."
+      },
+      "testimonial3": {
+        "feedback": "Usar TrackMySpend ha simplificado mi proceso de presupuesto. Ahora me siento más segura al manejar mis finanzas."
+      },
+      "testimonial4": {
+        "feedback": "TrackMySpend me ayuda a mantenerme al tanto de mis hábitos de gasto. ¡Es una herramienta imprescindible para quienes toman en serio sus finanzas!"
+      }
+    }
+  },
+  "sideMenu": {
+    "home": "Inicio",
+    "summary": "Resumen",
+    "yourPsychology": "Tu Psicología",
+    "support": "Soporte",
+    "account": "Cuenta",
+    "logOut": "Cerrar sesión"
+  },
+  "supportPage": {
+    "title": "Soporte",
+    "description": "Encuentra respuestas a tus preguntas o ponte en contacto con nuestro equipo de soporte.",
+    "getInContact": "Ponte en contacto",
+    "getInContactDescription": "Si no encontraste la respuesta a tu pregunta en nuestras preguntas frecuentes (FAQs), puedes ponerte en contacto con nosotros a través de cualquiera de los siguientes canales."
+  },
+  "faqs": {
+    "title": "Preguntas frecuentes (FAQs)",
+    "question1": "¿Cómo puedo contactar al soporte técnico?",
+    "answer1": "Puedes contactar a nuestro equipo de soporte enviándonos un correo electrónico a"
+  },
+  "accountPage": {
+    "title": "Tu cuenta",
+    "changePassword": "Cambiar contraseña",
+    "newPassword": "Nueva contraseña",
+    "currentPassword": "Contraseña actual",
+    "enterCurrentPassword": "Ingresa tu contraseña actual",
+    "enterNewPassword": "Ingresa tu nueva contraseña",
+    "enterYourPasswordConfirmation": "Ingresa tu confirmación de contraseña",
+    "finishesOn": "Finaliza el",
+    "premium": "Premium",
+    "free": "Gratuíto"
+  },
+  "privacyPolicyPage": {
+    "meta": {
+      "title": "Política de Privacidad | TrackMySpend - Tus Datos, Tu Privacidad",
+      "description": "Lee la política de privacidad de TrackMySpend para entender cómo manejamos, protegemos y usamos tus datos personales. Tu privacidad es nuestra prioridad, y estamos comprometidos a mantener la transparencia en nuestras prácticas de datos."
+    }
+  },
+  "footer": {
+    "aboutUsTitle": "Acerca de nosotros",
+    "aboutUsDescription": "Te ayudamos a gestionar, organizar y entender tus gastos para que puedas administrar mejor tus finanzas.",
+    "quickLinksTitle": "Enlaces rápidos",
+    "home": "Inicio",
+    "aboutUs": "Acerca de nosotros",
+    "contactUs": "Contáctanos",
+    "privacyPolicy": "Política de privacidad",
+    "allRightsReserved": "Todos los derechos reservados"
+  },
+  "meta": {
+    "title": "TrackMySpend – La Mejor App para Controlar Presupuesto y Gastos",
+    "description": "TrackMySpend es la mejor app para hacer seguimiento de tu presupuesto, gestionar tus gastos y alcanzar tus metas financieras. Controla tus finanzas, ahorra y asegura un futuro financiero estable.",
+    "structuredData": {
+      "description": "TrackMySpend es la mejor app para hacer seguimiento de tu presupuesto, gestionar tus gastos y alcanzar tus metas financieras.",
+      "freeTierDescription": "Versión gratuita con funciones básicas",
+      "monthlySubscriptionDescription": "Suscripción mensual con funciones premium",
+      "lifetimeAccessDescription": "Acceso de por vida con todas las funciones premium"
+    }
+  },
+  "api": {
+    "shared": {
+      "requiredField": "Este campo es obligatorio.",
+      "passwordShouldHaveAtLeast6Chars": "La contraseña debe tener al menos 6 caracteres.",
+      "passwordsDontMatch": "Las contraseñas no coinciden.",
+      "invalidEmail": "Dirección de correo electrónico inválida.",
+      "somethingWentWrong": "Algo salió mal. Por favor, inténtalo de nuevo."
+    },
+    "auth": {
+      "invalidCredentials": "Credenciales inválidas. Verifica tu correo electrónico y contraseña."
+    },
+    "expenses": {
+      "create": {
+        "error": "Error al crear el gasto.",
+        "success": "Gasto agregado con éxito."
+      },
+      "delete": {
+        "error": "Error al eliminar el gasto.",
+        "success": "Gasto eliminado con éxito."
+      }
+    },
+    "income": {
+      "create": {
+        "error": "Error al crear la entrada de ingresos.",
+        "success": "Ingreso agregado con éxito."
+      },
+      "delete": {
+        "error": "Error al eliminar la entrada de ingresos.",
+        "success": "Ingreso eliminado con éxito."
+      }
+    },
+    "savings": {
+      "create": {
+        "error": "Error al crear la entrada de ahorros.",
+        "success": "Ahorros agregados con éxito."
+      },
+      "delete": {
+        "error": "Error al eliminar la entrada de ahorros.",
+        "success": "Ahorros eliminados con éxito."
+      }
+    },
+    "category": {
+      "create": {
+        "error": "Error al crear la categoría.",
+        "success": "Categoría creada con éxito."
+      },
+      "update": {
+        "error": "Error al actualizar la categoría.",
+        "success": "Categoría actualizada con éxito."
+      }
+    },
+    "subCategory": {
+      "create": {
+        "error": "Error al crear la subcategoría.",
+        "success": "Subcategoría creada con éxito."
+      }
+    },
+    "password": {
+      "update": {
+        "error": "Error al actualizar la contraseña.",
+        "success": "Contraseña actualizada con éxito.",
+        "userNotFound": "Usuario no encontrado.",
+        "invalidPassword": "Contraseña inválida."
+      }
+    },
+    "user": {
+      "create": {
+        "error": "Error al crear el usuario.",
+        "success": "Usuario creado con éxito.",
+        "alreadyExists": "Ya existe un usuario con este correo electrónico."
+      }
+    }
+  },
+  "tour": {
+    "start": "Iniciar Recorrido",
+    "welcomeTitle": "¡Bienvenido a TrackMySpend!",
+    "endTitle": "¡Listo para Gestionar tus Finanzas!",
+    "endMessage": "¡Eso es todo! Ya estás listo para comenzar a gestionar tu dinero con TrackMySpend. Si necesitas ayuda, no dudes en contactarnos.",
+    "step0": "Vamos a hacer un recorrido rápido para que te familiarices con las funciones.",
+    "step1": "Primero, comencemos agregando un ahorro. Haz clic en el botón 'Agregar Ahorro' para registrar tus metas de ahorro.",
+    "step2": "A continuación, agrega tus ingresos. Haz clic en el botón 'Agregar Ingreso' para registrar tus ingresos.",
+    "step3": "Ahora, agrega tus gastos. Haz clic en el botón 'Agregar Gasto' para registrar tus transacciones.",
+    "step4": "Para ver análisis más avanzados, dirígete a la sección 'Resumen' en el menú del tablero."
+  },
+  "pricingPage": {
+    "chooseYourPlan": "Elige tu plan",
+    "mostPopular": "Más popular",
+    "free": "Gratis",
+    "per": "por",
+    "month": "mes",
+    "currentPlan": "Plan actual",
+    "subscribe": "Suscribirse",
+    "getStarted": "Comenzar",
+    "basicPlan": "Basic Plan",
+    "premiumPlan": "Premium Plan",
+    "trackExpenses": "Rastrea tus gastos",
+    "basicReporting": "Informes básicos",
+    "advancedAnalytics": "Informes avanzados",
+    "prioritySupport": "Soporte prioritario",
+    "unlimitedCategories": "Categorías ilimitadas",
+    "upTo9Categories": "Hasta 9 categorías",
+    "emotionAndSatisfactionTracking": "Seguimiento de emociones y satisfacción",
+    "spendingInsightsByEmotionAndCategory": "Informes de gastos por emoción y categoría",
+    "newFeaturesAndUpdatesRegularly": "Nuevas funciones y actualizaciones regularmente",
+    "lifeTimeDeal": "Oferta de por vida",
+    "allPremiumFeatures": "Todas las funciones Premium",
+    "oneTimePayment": "Pago único"
+  }
+}

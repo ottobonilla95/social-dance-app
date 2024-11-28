@@ -1,0 +1,511 @@
+{
+  "dashboard": {
+    "lastUpdated": "Last updated",
+    "addSaving": "Add saving",
+    "saving": "Saving",
+    "addIncome": "Add income",
+    "addExpense": "Add expense",
+    "expense": "Expense",
+    "totalIncome": "Total income",
+    "totalExpenses": "Total expenses",
+    "balance": "Balance",
+    "byEmotion": "By Emotion",
+    "bySatisfaction": "By Satisfaction",
+    "totalExpensesPerDayByCategory": "Total expenses per day by category",
+    "totalExpensesPerCategory": "Total expenses per category",
+    "samePeriodLastMonth": "Same period last month"
+  },
+  "forms": {
+    "expense": {
+      "create": {
+        "levelOfSatisfaction": "Level of Satisfaction",
+        "whatEmotionDidIFeel": "What emotion did I feel when making this expense?",
+        "neutral": "Neutral",
+        "sadness": "Sadness",
+        "happiness": "Happiness",
+        "stress": "Stress",
+        "boredom": "Boredom",
+        "excitement": "Excitement",
+        "guilt": "Guilt",
+        "anxiety": "Anxiety"
+      },
+      "delete": {
+        "title": "Delete Expense",
+        "message": "Are you sure you want to delete this expense? This action cannot be undone."
+      }
+    },
+    "saving": {
+      "delete": {
+        "title": "Delete Saving",
+        "message": "Are you sure you want to delete this saving? This action cannot be undone."
+      }
+    },
+    "income": {
+      "delete": {
+        "title": "Delete Income",
+        "message": "Are you sure you want to delete this income? This action cannot be undone."
+      }
+    },
+    "category": {
+      "create": {
+        "title": "Create Category"
+      },
+      "update": {
+        "title": "Update Category"
+      }
+    },
+    "subCategory": {
+      "create": {
+        "title": "Create Sub Category"
+      },
+      "update": {
+        "title": "Update Sub Category"
+      }
+    },
+    "shared": {
+      "category": "Category",
+      "subcategory": "Subcategory",
+      "description": "Description",
+      "amount": "Amount",
+      "date": "Date",
+      "save": "Save",
+      "cancel": "Cancel",
+      "name": "Name",
+      "color": "Color",
+      "enterAmount": "Enter Amount",
+      "enterDescription": "Enter Description",
+      "delete": "Delete",
+      "enterName": "Enter Name",
+      "add": "Add"
+    }
+  },
+  "psychologyPage": {
+    "emotionalSpendingPatterns": "Emotional spending patterns",
+    "satisfactionSpendingPatterns": "Satisfaction spending patterns",
+    "premiumNavLinkMessage": "Unlock Premium for advanced insights into your spending patterns, emotions, and satisfaction levels.",
+    "whereYouSpendTheMostByEmotion": "Where You Spend the Most by Emotion"
+  },
+  "shared": {
+    "total": "Total",
+    "name": "Name",
+    "date": "Date",
+    "price": "Price",
+    "satisfaction": "Satisfaction",
+    "emotion": "Emotion",
+    "noExpensesAdded": "You have not added any expenses this month.",
+    "expenses": "Expenses",
+    "savings": "Savings",
+    "income": "Income",
+    "contactUs": "Contact us",
+    "password": "Password",
+    "email": "Email",
+    "confirmPassword": "Confirm password",
+    "currency": "Currency",
+    "close": "Close",
+    "pricing": "Pricing",
+    "goPremium": "Go Premium",
+    "manageSubscription": "Manage Subscription",
+    "changeSubsCription": "Change Subscription",
+    "subscriptionMessages": {
+      "youHaveReaachedYourCategoryLimitTitle": "You’ve Reached Your Category Limit!",
+      "youHaveReaachedYourCategoryLimit": "You’ve used all available categories for the free plan. Upgrade to Premium to unlock unlimited categories and gain deeper insights into your spending.",
+      "addEmotionsAndLevelOfSatisfactionTitle": "Add emotions and satisfaction to your expenses!",
+      "addEmotionsAndLevelOfSatisfactionMessage": "Upgrade to Premium to track how each expense makes you feel and your level of satisfaction for deeper insights into your spending.",
+      "seeExpensesPerMonthByCategoryTitle": "See expenses per month by category!",
+      "seeExpensesPerMonthByCategoryMessage": "Upgrade to Premium to view detailed reports of your expenses broken down by category for each month.",
+      "seeTotalExpensesPerDayTitle": "See total expenses per day!",
+      "seeTotalExpensesPerDayMessage": "Upgrade to Premium to view detailed reports of your total expenses per day.",
+      "psychologyPagePremiumTitle": "Unlock Deeper Spending Psychology Insights",
+      "psychologyPagePremiumMessage": "Upgrade to Premium for a comprehensive view into the emotions, triggers, and patterns that shape your financial habits."
+    },
+    "privacyPolicy": "Privacy Policy",
+    "satisfactionLevels": {
+      "veryUnsatisfied": "Very unsatisfied",
+      "unsatisfied": "Unsatisfied",
+      "neutral": "Neutral",
+      "satisfied": "Satisfied",
+      "verySatisfied": "Very satisfied"
+    },
+
+    "currencies": {
+      "COP": "Colombian Peso",
+      "MXN": "Mexican Peso",
+      "ARS": "Argentine Peso",
+      "CLP": "Chilean Peso",
+      "UYU": "Uruguayan Peso",
+      "DOP": "Dominican Peso",
+      "VES": "Venezuelan Bolívar",
+      "PYG": "Paraguayan Guaraní",
+      "PEN": "Peruvian Sol",
+      "GTQ": "Guatemalan Quetzal",
+      "PAB": "Panamanian Balboa",
+      "NIO": "Nicaraguan Córdoba",
+      "HNL": "Honduran Lempira",
+      "USD": "US Dollar",
+      "EUR": "Euro",
+      "GBP": "British Pound",
+      "CHF": "Swiss Franc",
+      "CAD": "Canadian Dollar",
+      "JPY": "Japanese Yen",
+      "BRL": "Brazilian Real",
+      "AUD": "Australian Dollar",
+      "CNY": "Chinese Yuan",
+      "NZD": "New Zealand Dollar",
+      "RUB": "Russian Ruble",
+      "INR": "Indian Rupee",
+      "SEK": "Swedish Krona"
+    }
+  },
+  "insights": {
+    "totalIncomeExpensesSavings": "Total income, expenses, and savings",
+    "expensesByCategory": "Expenses by category"
+  },
+  "contactPage": {
+    "weWouldLoveToHearFromYou": "We would love to hear from you! Whether you have a question, comment, or need support, don't hesitate to contact us.",
+    "youCanSendUsAnEmailTo": "You can send us an email at:",
+    "weStriveToRespondWithin": "We strive to respond within 24-48 hours.",
+    "meta": {
+      "title": "Contact Us | TrackMySpend - We're Here to Help",
+      "description": "Have questions or need assistance? Contact TrackMySpend for support and inquiries. Our team is here to help you manage your finances more effectively and make the most of our tool."
+    }
+  },
+  "aboutUsPage": {
+    "aboutUs": "About Track My Expense",
+    "aboutUsDescription": "Our website was created to allow users to easily track their expenses and gain a better understanding of how their personal finances are being managed. This helps them take control of their financial health and make informed decisions.",
+    "aboutUsDescription2": "We believe that managing personal finances should be simple, accessible, and efficient. Whether you're trying to save more, understand your spending habits, or just keep better track, Track My Expense is designed for people who want to improve their financial well-being.",
+    "meta": {
+      "title": "About Us | TrackMySpend - Empowering You to Take Control of Your Finances",
+      "description": "Learn more about TrackMySpend, the team behind the tool, and our mission to help you track your expenses, optimize your budget, and achieve financial stability. We're committed to empowering individuals to manage their money with confidence."
+    }
+  },
+  "authPages": {
+    "login": "Login",
+    "pleaseLogIn": "Please log in to continue.",
+    "createAccount": "Create account",
+    "enterYourEmail": "Enter your email",
+    "enterYourPassword": "Enter your password",
+    "enterYourPasswordConfirmation": "Enter your password confirmation",
+    "enterYourName": "Enter your name",
+    "acceptPrivacyPolicy": "I accept the Privacy Policy",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "mainPage": {
+    "introMessage1": "Take control of your",
+    "introMessage2": "spending,",
+    "introMessage3": "effortlessly",
+    "welcomeDescription": "Track, manage, and analyze your expenses in one simple tool. Make informed decisions about your money and feel empowered every step of the way.",
+    "takeControlToday": "Take control today!",
+    "visualBenefit": {
+      "changeFrom": "Move from this",
+      "changeTo": "To this"
+    },
+    "painPoints": {
+      "title": "Disadvantages of not having a financial tool",
+      "items": [
+        {
+          "before": "Lack of",
+          "highlight": "awareness",
+          "after": "in financial matters"
+        },
+        {
+          "before": "Lost",
+          "highlight": "opportunities",
+          "after": "for saving"
+        },
+        { "before": "", "highlight": "Difficulty", "after": "with budgeting" },
+        {
+          "before": "Lack of",
+          "highlight": "vision",
+          "after": "regarding spending habits"
+        },
+        {
+          "before": "Increased",
+          "highlight": "stress",
+          "after": "about finances"
+        },
+        {
+          "before": "",
+          "highlight": "Inconsistent",
+          "after": "progress towards your goals"
+        },
+        {
+          "before": "Higher risk of accumulating",
+          "highlight": "debt",
+          "after": ""
+        },
+        { "before": "", "highlight": "Lack", "after": "of financial growth" }
+      ],
+      "betterWayText": "There’s a better way"
+    },
+    "benefits": {
+      "title": "Benefits of Managing Your Money Like an Expert!",
+      "items": [
+        {
+          "title": "Clear Financial Vision",
+          "description": "Understand where every dollar goes and get a full view of your financial situation."
+        },
+        {
+          "title": "Increase Savings and Reduce Debt",
+          "description": "Set savings goals, avoid unnecessary expenses, and work towards getting out of debt."
+        },
+        {
+          "title": "Awareness of Emotional Spending",
+          "description": "Discover spending patterns linked to your emotions, like impulsive purchases, and make more conscious decisions."
+        },
+        {
+          "title": "Financial Peace of Mind",
+          "description": "Reduce financial stress by having a clear plan and staying in control of your money."
+        },
+        {
+          "title": "Healthy Spending Habits",
+          "description": "Identify and improve your spending habits for a more balanced and satisfying financial life."
+        }
+      ]
+    },
+    "keyFeatures": {
+      "title": "Key Features of TrackMySpend",
+      "description": "TrackMySpend provides you with the tools to manage your money effortlessly and gain deep insights into your spending habits.",
+      "feature1": {
+        "title": "Track Your Expenses, Income, and Savings",
+        "description": "Easily log and categorize your expenses, track income sources, and see how much you’re saving each month."
+      },
+      "feature2": {
+        "title": "Visual Financial Insights",
+        "description": "Understand your spending habits through detailed pie charts for each month and line graphs that track all your categories over time."
+      },
+      "feature3": {
+        "title": "Emotion-Based Spending",
+        "description": "Attach emotions to your expenses and gain insights into how your feelings influence your financial decisions."
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "step1": {
+        "title": "Create an Account",
+        "description": "Sign up and create your account in seconds. No complicated forms, just your basic information."
+      },
+      "step2": {
+        "title": "Add Your Finances",
+        "description": "Easily input your income, expenses, and savings with a user-friendly interface."
+      },
+      "step3": {
+        "title": "Track and Analyze",
+        "description": "Get detailed reports on where your money is going, how much you’re saving, and more."
+      },
+      "step4": {
+        "title": "Reach Your Goals",
+        "description": "Set financial goals and track your progress. Let TrackMySpend guide you to financial success!"
+      }
+    },
+    "screenShots": {
+      "title": "Explore the TrackMySpend App",
+      "description": "Take a look at the interface and features that help you manage your finances effortlessly.",
+
+      "screenshot1": {
+        "description": "Overview of current month’s expenses"
+      },
+      "screenshot2": {
+        "description": "View totals per category"
+      },
+      "screenshot3": {
+        "description": "Track total expenses per day"
+      },
+      "screenshot4": {
+        "description": "Detailed table of all expense records"
+      },
+      "screenshot5": {
+        "description": "Monthly totals displayed in a graph"
+      },
+      "screenshot6": {
+        "description": "Totals per month per category"
+      },
+      "screenshot7": {
+        "description": "Graphs showing total expenses by emotion and satisfaction level"
+      },
+      "screenshot8": {
+        "description": "Table of total expenses per emotion by category (e.g., sadness: Food, Clothes)"
+      }
+    },
+    "testimonials": {
+      "title": "What Our Users Say",
+      "testimonial1": {
+        "feedback": "TrackMySpend changed the way I handle my finances! I now have full control over my expenses and savings."
+      },
+      "testimonial2": {
+        "feedback": "TrackMySpend has been a game-changer! It's intuitive, easy to use, and gives me a clear picture of my financial health."
+      },
+      "testimonial3": {
+        "feedback": "Using TrackMySpend has simplified my budgeting process. I feel more confident in managing my finances now."
+      },
+      "testimonial4": {
+        "feedback": "TrackMySpend helps me stay on top of my spending habits. It's a must-have tool for anyone serious about their finances!"
+      }
+    }
+  },
+  "sideMenu": {
+    "home": "Home",
+    "summary": "Summary",
+    "yourPsychology": "Your Psychology",
+    "support": "Support",
+    "account": "Account",
+    "logOut": "Log out"
+  },
+  "supportPage": {
+    "title": "Support",
+    "description": "Find answers to your questions or get in touch with our support team.",
+    "getInContact": "Get in contact",
+    "getInContactDescription": "If you didn't find the answer to your question in our FAQs, you can contact us through any of the following channels."
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions (FAQs)",
+    "question1": "How can I contact technical support?",
+    "answer1": "You can contact our support team by sending us an email at"
+  },
+  "accountPage": {
+    "title": "Account",
+    "changePassword": "Change Password",
+    "newPassword": "New Password",
+    "currentPassword": "Current Password",
+    "enterCurrentPassword": "Enter your current password",
+    "enterNewPassword": "Enter your new password",
+    "enterYourPasswordConfirmation": "Enter your password confirmation",
+    "finishesOn": "Finishes on",
+    "premium": "Premium",
+    "free": "Free"
+  },
+  "privacyPolicyPage": {
+    "meta": {
+      "title": "Privacy Policy | TrackMySpend - Your Data, Your Privacy",
+      "description": "Read TrackMySpend's privacy policy to understand how we handle, protect, and use your personal data. Your privacy is our priority, and we are committed to maintaining transparency in our data practices."
+    }
+  },
+  "footer": {
+    "aboutUsTitle": "About Us",
+    "aboutUsDescription": "We help you manage, organize, and understand your expenses so that you can better manage your finances.",
+    "quickLinksTitle": "Quick Links",
+    "home": "Home",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us",
+    "privacyPolicy": "Privacy Policy",
+    "allRightsReserved": "All rights reserved."
+  },
+  "meta": {
+    "title": "TrackMySpend – Best App to Track Budget and Spending",
+    "description": "TrackMySpend is the best app for budget tracking and personal finance goals. Easily track spending, manage income, and grow savings for a secure financial future!",
+    "structuredData": {
+      "description": "TrackMySpend is the best app for tracking your budget, managing expenses, and achieving personal finance goals.",
+      "freeTierDescription": "Free tier available with basic features",
+      "monthlySubscriptionDescription": "Monthly subscription with premium features",
+      "lifetimeAccessDescription": "Lifetime access with all premium features"
+    }
+  },
+  "api": {
+    "shared": {
+      "requiredField": "This field is required.",
+      "passwordShouldHaveAtLeast6Chars": "Password should have at least 6 characters.",
+      "passwordsDontMatch": "Passwords do not match.",
+      "invalidEmail": "Invalid email address.",
+      "somethingWentWrong": "Something went wrong. Please try again."
+    },
+    "auth": {
+      "invalidCredentials": "Invalid credentials. Please check your email and password."
+    },
+    "expenses": {
+      "create": {
+        "error": "Failed to create expense.",
+        "success": "Expense successfully added."
+      },
+      "delete": {
+        "error": "Failed to delete expense.",
+        "success": "Expense successfully deleted."
+      }
+    },
+    "income": {
+      "create": {
+        "error": "Failed to create income entry.",
+        "success": "Income successfully added."
+      },
+      "delete": {
+        "error": "Failed to delete income entry.",
+        "success": "Income successfully deleted."
+      }
+    },
+    "savings": {
+      "create": {
+        "error": "Failed to create savings entry.",
+        "success": "Savings successfully added."
+      },
+      "delete": {
+        "error": "Failed to delete savings entry.",
+        "success": "Savings successfully deleted."
+      }
+    },
+    "category": {
+      "create": {
+        "error": "Failed to create category.",
+        "success": "Category successfully created."
+      },
+      "update": {
+        "error": "Failed to update category.",
+        "success": "Category successfully updated."
+      }
+    },
+    "subCategory": {
+      "create": {
+        "error": "Failed to create sub-category.",
+        "success": "Sub-category successfully created."
+      }
+    },
+    "password": {
+      "update": {
+        "error": "Failed to update password.",
+        "success": "Password successfully updated.",
+        "userNotFound": "User not found.",
+        "invalidPassword": "Invalid password."
+      }
+    },
+    "user": {
+      "create": {
+        "error": "Failed to create user.",
+        "success": "User successfully created.",
+        "alreadyExists": "A user with this email already exists."
+      }
+    }
+  },
+
+  "tour": {
+    "start": "Start Tour",
+    "welcomeTitle": "Welcome to TrackMySpend!",
+    "endTitle": "You're all set!",
+    "endMessage": "You’re ready to start managing your money with TrackMySpend. If you need help, don’t hesitate to reach out to us.",
+    "step0": "Let’s take a quick tour to get you familiar with the features.",
+    "step1": "First, let's start by adding a saving. Click the 'Add Saving' button to track your savings goals.",
+    "step2": "Next, add your income. Click the 'Add Income' button to log your earnings.",
+    "step3": "Now, add your expenses. Click the 'Add Expense' button to record your transactions.",
+    "step4": "For more advanced insights, head over to the 'Summary' section from the dashboard menu."
+  },
+  "pricingPage": {
+    "chooseYourPlan": "Choose Your Plan",
+    "mostPopular": "Most Popular",
+    "free": "Free",
+    "per": "per",
+    "month": "month",
+    "currentPlan": "Current Plan",
+    "subscribe": "Subscribe",
+    "getStarted": "Get Started",
+    "basicPlan": "Basic Plan",
+    "premiumPlan": "Premium Plan",
+    "trackExpenses": "Track Expenses",
+    "basicReporting": "Basic Analytics",
+    "advancedAnalytics": "Advanced Analytics",
+    "prioritySupport": "Priority Support",
+    "unlimitedCategories": "Unlimited Categories",
+    "upTo9Categories": "Up to 9 Categories",
+    "emotionAndSatisfactionTracking": "Emotion & Satisfaction Tracking",
+    "spendingInsightsByEmotionAndCategory": "Spending Insights by Emotion & Category",
+    "newFeaturesAndUpdatesRegularly": "New Features & Updates Regularly",
+    "lifeTimeDeal": "Life Time Deal",
+    "allPremiumFeatures": "All Premium Features",
+    "oneTimePayment": "One Time Payment"
+  }
+}
